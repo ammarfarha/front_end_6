@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="//cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 </head>
 <body>
     <h1>tables</h1>
     <a href="/1-basics.html#tt1">back</a><br>
-    <table width="100%" border="1">
+    <table id="myTable">
         <thead>
             <tr>
                 <td>snak name</td>
                 <td>size</td>
-                <th>price (SP)</th>
+                <td>price (SP)</td>
             </tr>
         </thead>
         <tbody>
@@ -308,6 +311,10 @@
                 <td>15000</td>
             </tr>
         </tfoot>
+        <caption>Table 1 - List of meales prices</caption>
     </table>
+    <script>
+        let table = new DataTable('#myTable');
+    </script>
 </body>
 </html>

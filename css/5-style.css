@@ -1,0 +1,8 @@
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-bg-type: blue;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0.8;
+    background-color: yellow !important;
+  }

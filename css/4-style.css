@@ -1,0 +1,30 @@
+#div1{
+    color: blue;
+}
+.mydiv{
+    color: yellow;
+}
+table.dataTable>thead>tr>td {
+    border-bottom: 5px double red;
+}
+
+h1{
+    background-color: aquamarine;
+    color: tomato;
+}
+
+h1{
+    color: yellow;
+    border: 1px solid #000000;
+}
+#fd{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.c1{
+    background-color: red;
+}
+.c2{
+    color: red;
+    background-color: blue;
+}

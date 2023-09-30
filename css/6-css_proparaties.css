@@ -67,3 +67,14 @@ body{
     float: left;
 }
 
+#first{
+    
+    height: 300px;
+    background-color: aquamarine;
+}
+
+@media (max-width:600px) {
+    #first{
+        display: none;
+    }
+}

@@ -1,0 +1,70 @@
+/* .mm#hh{
+    background-color: red;
+}
+#t1 > h1{
+    background-color: blue;
+}
+#t1 ~ .cl2{
+    background-color: brown;
+} */
+/* div{
+    background-color: aqua;
+}
+div:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+} */
+/* div > a:link{
+    text-decoration: none;
+    color: black;
+}
+div > a:visited{
+    color: black;
+}
+#navmenu{
+    display: none;
+}
+
+#navmenu a:last-child{
+    background-color: blue;
+}
+#nav:hover + #navmenu{
+    display: block;
+}
+
+input:focus{
+    background-color: brown;
+    color: white;
+}
+#t2{
+    height: 100px;
+}
+#t2:empty{
+    background-color: aquamarine;
+} */
+/* 
+#t1::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+#t1::selection{
+    color: greenyellow;
+}
+#t1::before{
+    content: "**";
+}
+#t1::after{
+    content: "+++++++";
+} */
+[lang|="ar"]{
+    background-color: aquamarine;
+}
+[tt*="ears"]{
+    background-color: red;
+}

@@ -1,0 +1,15 @@
+{
+    "first_name": "Ahmad",
+    "last_name": "Tahseen",
+    "age": 20,
+    "marks": [
+        {
+            "name": "Math",
+            "mark": 25
+        },
+        {
+            "name": "Phis",
+            "mark": 30
+        }
+    ]
+}

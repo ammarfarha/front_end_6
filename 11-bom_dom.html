@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM and DOM</title>
+    <link rel="stylesheet" href="/css/11-style.css">
+</head>
+<body>
+    <!-- <div>
+        <div id="width"></div>
+        <div id="height"></div>
+        <div id="ua"></div>
+        <div id="val"></div>
+    </div> -->
+
+    <!-- <div onmousemove="window.open('https://google.com')">open google</div> -->
+    <!-- <div onclick="window.location.href = 'https://google.com'">close</div> -->
+
+    <!-- <div onclick="window.history.back()">back</div>
+    <div onclick="window.history.forward()">forword</div>
+    <div id="bom"></div> -->
+
+
+        <form action="">
+            <input type="text" name="res" id="res" value=""><br>
+            <input type="button" value="1" onclick="one()">
+            <input type="button" value="2" onclick="tow()"><br>
+            <input type="button" value="+" onclick="plus()"><br>
+            <input type="button" value="=" onclick="calc()"><br>
+
+        </form>
+
+        <div id="mydiv">
+            <h1>Hello</h1>
+        </div>
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <td>snak name</td>
+                    <td>size</td>
+                    <td>price (SP)</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>crispy</td>
+                    <td>larg</td>
+                    <td>10000</td>
+                </tr>
+                <tr>
+                    <td>crispy</td>
+                    <td>medium</td>
+                    <td>9000</td>
+                </tr>
+                <tr>
+                    <td>crispy</td>
+                    <td>small</td>
+                    <td>7000</td>
+                </tr>
+                <tr>
+                    <td>pitza</td>
+                    <td>Jambo</td>
+                    <td>15000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2">Min</th>
+                    <td>7000</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Max</th>
+                    <td>15000</td>
+                </tr>
+            </tfoot>
+            <caption>Table 1 - List of meales prices</caption>
+        </table>
+
+
+
+    <script src="/js/11-main.js"></script>
+
+</body>
+</html>

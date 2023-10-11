@@ -1,7 +1,5 @@
 // $(selector).action(params, callback);
 
-
-
 // jQuery Effects:
 // ***************************************************
 // Hide and Show:
@@ -76,14 +74,17 @@
 // text()
 // html()
 // val()
+
 // Adding:
 // append()
 // prepend()
 // after()
 // before()
+
 // Remove:
 // remove()
 // empty()
+
 // jQuery Manipulating CSS:
 // addClass()
 // removeClass()
@@ -92,6 +93,7 @@
 // $("p").css("background-color");
 // css("propertyname","value");
 // css({"propertyname":"value","propertyname":"value"});
+
 // jQuery - Dimensions:
 // width()
 // height()
@@ -100,16 +102,17 @@
 // outerWidth()
 // outerHeight()
 
-
 // jQuery Traversing
 // ***************************************************************
 // Ancestors:
 // parent()
 // parents()
 // parentsUntil()
+
 // Descendants:
 // children()
 // find()
+
 // Siblings:
 // siblings()
 // next()
@@ -118,15 +121,13 @@
 // prev()
 // prevAll()
 // prevUntil()
+
 // Filtering:
 // first()
 // last()
 // eq()
 // filter()
 // not()
-
-
-
 
 // ******************************************
 // $(document).ready(function(){

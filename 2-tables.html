@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
-    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-    <link rel="stylesheet" href="//cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    
+    <link rel="stylesheet" href="/vendors/datatables/css/dataTables.css">
     <link rel="stylesheet" href="/css/4-style.css">
-    <script src="//cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    
 </head>
 <body>
     <h1>tables</h1>
@@ -314,8 +314,21 @@
         </tfoot>
         <caption>Table 1 - List of meales prices</caption>
     </table>
+
+
+
+    <script src="/vendors/jquery/js/jquery-3.7.1.js"></script>
+    <script src="/vendors/datatables/js/dataTables.js"></script>
     <script>
-        let table = new DataTable('#myTable');
+        let table = new DataTable('#myTable', {
+                            info: false,
+                            ordering: true,
+                            order: [
+                                [1, 'asc'],
+                                [0,'asc']
+                            ],
+                            paging: true
+                        });
     </script>
 </body>
 </html>
